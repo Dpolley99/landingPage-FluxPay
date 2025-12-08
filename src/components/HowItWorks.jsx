@@ -2,7 +2,7 @@ import heroImage from '../assets/hero-image.png';
 
 const HowItWorks = () => {
   return (
-    <section className="bg-white w-full flex flex-col items-center gap-10 md:gap-16 xl:gap-20 pt-6 pb-12 md:py-16 xl:py-0 px-4 sm:px-8 md:px-12 xl:px-16">
+    <section className="bg-white w-full flex flex-col items-center gap-10 md:gap-16 pb-0 xl:gap-20 pt-6 md:pt-12 md:pb-8 xl:py-0 px-4 sm:px-8 md:px-12 xl:px-16">
       <div className="flex flex-col lg:flex-row gap-8 md:gap-12 xl:gap-20 w-full max-w-[1440px]">
         <div className="flex-1 flex flex-col justify-center items-start lg:items-end gap-6 md:gap-8 py-8 md:py-12 lg:py-28 px-4 sm:px-8 md:px-12 lg:px-16 lg:pr-20 lg:pl-16">
           <div className="flex flex-col gap-6 md:gap-8 w-full">
@@ -27,7 +27,7 @@ const HowItWorks = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-full lg:min-h-[600px]">
+        <div className="flex-1 w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[500px] xl:h-[600px]">
           <img 
             src={heroImage} 
             alt="FluxPay Interface" 

@@ -25,7 +25,7 @@ const Problem = () => {
   ];
 
   return (
-    <section className="bg-white w-full flex flex-col items-center gap-10 md:gap-16 xl:gap-20 pt-8 md:pt-10 pb-12 md:pb-16 xl:pb-20 px-4 sm:px-8 md:px-12 xl:px-16">
+    <section className="bg-white w-full flex flex-col items-center gap-10 md:gap-16 xl:gap-20 pt-6 md:pt-5 pb-12 md:pb-16 xl:pb-20 px-4 sm:px-8 md:px-12 xl:px-16">
       <div className="flex flex-col items-center gap-10 md:gap-16 xl:gap-20 w-full max-w-[1440px]">
         <div className="flex flex-col items-center gap-4 w-full">
           <div className="flex flex-col items-center gap-4 md:gap-6 w-full">
