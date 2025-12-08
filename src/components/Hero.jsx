@@ -1,3 +1,5 @@
+import heroImage from '../assets/hero-image.png';
+
 const Hero = () => {
   return (
     <section className="bg-[#E5E5F0] w-full flex flex-col gap-20 h-[900px]">
@@ -24,7 +26,7 @@ const Hero = () => {
         </div>
         <div className="flex-1 w-full h-full">
           <img 
-            src="/images/hero-image.png" 
+            src={heroImage} 
             alt="FluxPay Dashboard" 
             className="w-full h-full object-cover"
             onError={(e) => {

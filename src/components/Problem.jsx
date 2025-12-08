@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import problem1 from '../assets/problem-1.png';
+import problem2 from '../assets/problem-2.png';
+import problem3 from '../assets/problem-3.png';
 
 const Problem = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -7,17 +10,17 @@ const Problem = () => {
     {
       title: "Market opportunity",
       description: "Billions spent on household bills annually with minimal innovation in payment experience.",
-      image: "/images/problem-1.png",
+      image: problem1,
     },
     {
       title: "Early traction",
       description: "Strong user engagement and retention metrics demonstrate real demand for this solution.",
-      image: "/images/problem-2.png",
+      image: problem2,
     },
     {
       title: "Differentiated approach",
       description: "Rewards ecosystem creates a new revenue stream while delivering genuine value to users.",
-      image: "/images/problem-3.png",
+      image: problem3,
     },
   ];
 

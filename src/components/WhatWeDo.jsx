@@ -1,19 +1,23 @@
+import feature1 from '../assets/feature-1.png';
+import feature2 from '../assets/feature-2.png';
+import feature3 from '../assets/feature-3.png';
+
 const WhatWeDo = () => {
   const features = [
     {
       title: "Reliable bill payments",
       description: "Pay your household bills on time, every time, without the friction of managing multiple accounts and due dates.",
-      image: "/images/feature-1.png",
+      image: feature1,
     },
     {
       title: "Unified financial view",
       description: "See all your bills and spending in one dashboard. No more scattered statements or forgotten payments.",
-      image: "/images/feature-2.png",
+      image: feature2,
     },
     {
       title: "Rewards that matter",
       description: "Earn rewards from every transaction and redeem them through our marketplace. Your spending works for you.",
-      image: "/images/feature-3.png",
+      image: feature3,
     },
   ];
 

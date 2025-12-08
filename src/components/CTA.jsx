@@ -1,3 +1,5 @@
+import ctaImage from '../assets/cta-image.png';
+
 const CTA = () => {
   return (
     <section className="bg-[#F2F2F2] w-full flex flex-col items-center gap-20 py-28 px-16">
@@ -33,7 +35,7 @@ const CTA = () => {
           </div>
           <div className="flex-1 w-full h-[400px] rounded-lg overflow-hidden">
             <img 
-              src="/images/cta-image.png" 
+              src={ctaImage} 
               alt="Early Access" 
               className="w-full h-full object-cover"
               onError={(e) => {
