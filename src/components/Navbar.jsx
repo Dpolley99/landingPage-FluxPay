@@ -42,7 +42,7 @@ const Navbar = () => {
           </div>
         </div>
         
-        <div className="flex-1 flex items-center justify-center">
+        <div className="flex-1 flex items-center justify-start lg:justify-center">
           <svg width="100" height="36" viewBox="0 0 100 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-16 h-7 sm:w-20 sm:h-8 md:w-24 md:h-9 xl:w-[84px] xl:h-[36px]">
             <text x="0" y="24" fontFamily="Archivo" fontSize="20" fontWeight="600" fill="#0D0700" className="text-base sm:text-lg md:text-xl xl:text-2xl">FluxPay</text>
           </svg>
@@ -51,9 +51,18 @@ const Navbar = () => {
         <div className="flex-1 flex items-center justify-end gap-2">
           <button 
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden bg-[#01036A] border border-[#01036A] rounded-md px-3 py-1.5 text-white text-sm font-medium hover:opacity-90 transition"
+            className="lg:hidden p-2 text-[#0D0700] hover:opacity-80 transition"
+            aria-label="Toggle menu"
           >
-            {isMobileMenuOpen ? 'Close' : 'Menu'}
+            {isMobileMenuOpen ? (
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            ) : (
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            )}
           </button>
           <button className="hidden lg:block bg-[#01036A] border border-[#01036A] rounded-md px-2.5 py-1 text-white text-base xl:text-lg font-medium hover:opacity-90 transition">
             Menu
