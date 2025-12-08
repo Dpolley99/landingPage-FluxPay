@@ -70,7 +70,7 @@ const Footer = () => {
             </div>
           </div>
           
-          <div className="flex-1 flex flex-col sm:flex-row gap-6 md:gap-8 xl:gap-10">
+          <div className="flex-1 flex flex-row flex-wrap sm:flex-row gap-6 md:gap-8 xl:gap-10">
             <div className="flex-1 flex flex-col gap-3 md:gap-4">
               <h5 className="font-raleway text-base sm:text-lg font-semibold leading-[1.5] text-[#0D0700]">
                 Product
