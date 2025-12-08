@@ -2,7 +2,7 @@ import heroImage from '../assets/hero-image.png';
 
 const Hero = () => {
   return (
-    <section className="bg-[#E5E5F0] w-full flex flex-col gap-10 md:gap-16 xl:gap-20 min-h-[600px] md:min-h-[700px] lg:h-[800px] xl:h-[900px]">
+    <section className="bg-[#E5E5F0] w-full flex flex-col gap-10 md:gap-16 xl:gap-20 min-h-[600px] md:min-h-[700px] lg:h-[800px] xl:h-[900px] pt-[72px]">
       <div className="flex flex-col lg:flex-row flex-1 w-full max-w-[1440px] mx-auto">
         <div className="flex-1 flex flex-col justify-center items-start lg:items-end gap-6 md:gap-8 px-4 sm:px-8 md:px-12 lg:px-16 py-8 md:py-12 lg:py-0 lg:pr-20 lg:pl-16">
           <div className="flex flex-col gap-6 md:gap-8 w-full">

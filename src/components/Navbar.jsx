@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-[#F2F2F2] w-full flex justify-center items-center py-0 px-4 sm:px-8 md:px-16 h-[72px] relative">
+    <nav className="fixed top-0 left-0 right-0 bg-[#F2F2F2] w-full flex justify-center items-center py-0 px-4 sm:px-8 md:px-16 h-[72px] z-50">
       <div className="container flex justify-between items-center gap-4 md:gap-8 w-full max-w-[1440px]">
         <div className="hidden lg:flex flex-1 items-center gap-4 xl:gap-8">
           <div className="flex items-center gap-4 xl:gap-8">
