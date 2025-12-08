@@ -22,7 +22,7 @@ const WhatWeDo = () => {
   ];
 
   return (
-    <section className="bg-white w-full flex flex-col items-center gap-10 md:gap-16 xl:gap-20 py-12 md:py-16 xl:py-20 px-4 sm:px-8 md:px-12 xl:px-16">
+    <section className="bg-white w-full flex flex-col items-center gap-10 md:gap-16 xl:gap-20 pt-12 pb-6 md:py-16 xl:py-20 px-4 sm:px-8 md:px-12 xl:px-16">
       <div className="flex flex-col items-center gap-10 md:gap-16 xl:gap-20 w-full max-w-[1440px]">
         <div className="flex flex-col items-center gap-4 w-full">
           <div className="flex flex-col items-center gap-4 md:gap-6 w-full">
