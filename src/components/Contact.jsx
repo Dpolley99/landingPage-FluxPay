@@ -30,19 +30,19 @@ const Contact = () => {
   ];
 
   return (
-    <section className="bg-white w-full flex flex-col items-center gap-20 py-28 px-16">
-      <div className="flex flex-col items-center gap-20 w-full">
-        <div className="flex gap-12 w-full">
+    <section className="bg-white w-full flex flex-col items-center gap-10 md:gap-16 xl:gap-20 py-12 md:py-20 xl:py-28 px-4 sm:px-8 md:px-12 xl:px-16">
+      <div className="flex flex-col items-center gap-10 md:gap-16 xl:gap-20 w-full max-w-[1440px]">
+        <div className="flex flex-col sm:flex-row gap-8 md:gap-10 xl:gap-12 w-full">
           {contactInfo.map((info, index) => (
-            <div key={index} className="flex-1 flex flex-col gap-6">
-              <div className="w-12 h-12 flex items-center justify-center">
+            <div key={index} className="flex-1 flex flex-col gap-4 md:gap-6">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center">
                 {info.icon}
               </div>
-              <div className="flex flex-col gap-4">
-                <h4 className="font-archivo text-[40px] font-medium leading-[1.3] tracking-[-0.01em] text-[#0D0700]">
+              <div className="flex flex-col gap-3 md:gap-4">
+                <h4 className="font-archivo text-2xl sm:text-3xl md:text-4xl xl:text-[40px] font-medium leading-[1.3] tracking-[-0.01em] text-[#0D0700]">
                   {info.title}
                 </h4>
-                <p className="font-raleway text-lg font-normal leading-[1.5] text-[#0D0700]">
+                <p className="font-raleway text-base sm:text-lg font-normal leading-[1.5] text-[#0D0700]">
                   {info.value}
                 </p>
               </div>

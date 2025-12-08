@@ -40,26 +40,26 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#F2F2F2] w-full flex flex-col items-center gap-20 py-20 px-16">
-      <div className="flex flex-col items-center gap-20 w-full">
-        <div className="flex gap-32 w-full">
-          <div className="w-[500px] flex flex-col gap-6">
+    <footer className="bg-[#F2F2F2] w-full flex flex-col items-center gap-10 md:gap-16 xl:gap-20 py-12 md:py-16 xl:py-20 px-4 sm:px-8 md:px-12 xl:px-16">
+      <div className="flex flex-col items-center gap-10 md:gap-16 xl:gap-20 w-full max-w-[1440px]">
+        <div className="flex flex-col lg:flex-row gap-8 md:gap-12 xl:gap-32 w-full">
+          <div className="w-full lg:w-[500px] flex flex-col gap-4 md:gap-6">
             <div className="w-[84px] h-[36px] flex items-center">
-              <span className="font-archivo text-2xl font-semibold text-[#0D0700]">FluxPay</span>
+              <span className="font-archivo text-xl sm:text-2xl font-semibold text-[#0D0700]">FluxPay</span>
             </div>
-            <p className="font-raleway text-lg font-normal leading-[1.5] text-[#0D0700]">
+            <p className="font-raleway text-base sm:text-lg font-normal leading-[1.5] text-[#0D0700]">
               Stay informed about product launches and company milestones.
             </p>
             <div className="flex flex-col gap-3 w-full">
-              <form className="flex gap-4 w-full">
+              <form className="flex flex-col sm:flex-row gap-4 w-full">
                 <input
                   type="email"
                   placeholder="Enter email"
-                  className="flex-1 px-0 py-2 border-0 border-b border-[rgba(13,7,0,0.15)] bg-transparent text-lg font-normal text-[rgba(13,7,0,0.6)] placeholder:text-[rgba(13,7,0,0.6)] focus:outline-none focus:border-[#01036A]"
+                  className="flex-1 px-0 py-2 border-0 border-b border-[rgba(13,7,0,0.15)] bg-transparent text-base sm:text-lg font-normal text-[rgba(13,7,0,0.6)] placeholder:text-[rgba(13,7,0,0.6)] focus:outline-none focus:border-[#01036A]"
                 />
                 <button
                   type="submit"
-                  className="border border-[rgba(13,7,0,0.15)] rounded-md px-3 py-1.5 text-[#0D0700] text-lg font-medium hover:opacity-80 transition whitespace-nowrap"
+                  className="border border-[rgba(13,7,0,0.15)] rounded-md px-4 sm:px-3 py-2 sm:py-1.5 text-[#0D0700] text-base sm:text-lg font-medium hover:opacity-80 transition whitespace-nowrap w-full sm:w-auto"
                 >
                   Subscribe
                 </button>
@@ -70,9 +70,9 @@ const Footer = () => {
             </div>
           </div>
           
-          <div className="flex-1 flex gap-10">
-            <div className="flex-1 flex flex-col gap-4">
-              <h5 className="font-raleway text-lg font-semibold leading-[1.5] text-[#0D0700]">
+          <div className="flex-1 flex flex-col sm:flex-row gap-6 md:gap-8 xl:gap-10">
+            <div className="flex-1 flex flex-col gap-3 md:gap-4">
+              <h5 className="font-raleway text-base sm:text-lg font-semibold leading-[1.5] text-[#0D0700]">
                 Product
               </h5>
               <div className="flex flex-col">
@@ -80,7 +80,7 @@ const Footer = () => {
                   <a
                     key={index}
                     href={`#${link.toLowerCase().replace(' ', '-')}`}
-                    className="py-2 font-raleway text-base font-normal leading-[1.5] text-[#0D0700] hover:opacity-80 transition"
+                    className="py-2 font-raleway text-sm sm:text-base font-normal leading-[1.5] text-[#0D0700] hover:opacity-80 transition"
                   >
                     {link}
                   </a>
@@ -88,8 +88,8 @@ const Footer = () => {
               </div>
             </div>
             
-            <div className="flex-1 flex flex-col gap-4">
-              <h5 className="font-raleway text-lg font-semibold leading-[1.5] text-[#0D0700]">
+            <div className="flex-1 flex flex-col gap-3 md:gap-4">
+              <h5 className="font-raleway text-base sm:text-lg font-semibold leading-[1.5] text-[#0D0700]">
                 About us
               </h5>
               <div className="flex flex-col">
@@ -97,7 +97,7 @@ const Footer = () => {
                   <a
                     key={index}
                     href={`#${link.toLowerCase().replace(' ', '-')}`}
-                    className="py-2 font-raleway text-base font-normal leading-[1.5] text-[#0D0700] hover:opacity-80 transition"
+                    className="py-2 font-raleway text-sm sm:text-base font-normal leading-[1.5] text-[#0D0700] hover:opacity-80 transition"
                   >
                     {link}
                   </a>
@@ -105,8 +105,8 @@ const Footer = () => {
               </div>
             </div>
             
-            <div className="flex-1 flex flex-col gap-4">
-              <h5 className="font-raleway text-lg font-semibold leading-[1.5] text-[#0D0700]">
+            <div className="flex-1 flex flex-col gap-3 md:gap-4">
+              <h5 className="font-raleway text-base sm:text-lg font-semibold leading-[1.5] text-[#0D0700]">
                 Guides
               </h5>
               <div className="flex flex-col">
@@ -114,10 +114,10 @@ const Footer = () => {
                   <a
                     key={index}
                     href={`#${link.name.toLowerCase()}`}
-                    className="flex items-center gap-3 py-2 font-raleway text-base font-normal leading-[1.5] text-[#0D0700] hover:opacity-80 transition"
+                    className="flex items-center gap-3 py-2 font-raleway text-sm sm:text-base font-normal leading-[1.5] text-[#0D0700] hover:opacity-80 transition"
                   >
                     {link.icon && (
-                      <span className="w-6 h-6 text-[#0D0700] flex items-center justify-center">
+                      <span className="w-5 h-5 sm:w-6 sm:h-6 text-[#0D0700] flex items-center justify-center">
                         {socialIcons[link.name]}
                       </span>
                     )}
@@ -129,20 +129,20 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="flex flex-col gap-8 w-full">
+        <div className="flex flex-col gap-6 md:gap-8 w-full">
           <div className="w-full h-px bg-[rgba(13,7,0,0.15)]"></div>
-          <div className="flex justify-between items-center gap-16 w-full">
-            <p className="font-raleway text-base font-normal leading-[1.5] text-[#0D0700]">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-16 w-full">
+            <p className="font-raleway text-sm sm:text-base font-normal leading-[1.5] text-[#0D0700] text-center sm:text-left">
               © 2025 FluxPay. All rights reserved.
             </p>
-            <div className="flex gap-6">
-              <a href="#privacy" className="font-raleway text-base font-normal leading-[1.5] text-[#0D0700] hover:opacity-80 transition">
+            <div className="flex flex-wrap justify-center sm:justify-end gap-4 sm:gap-6">
+              <a href="#privacy" className="font-raleway text-sm sm:text-base font-normal leading-[1.5] text-[#0D0700] hover:opacity-80 transition">
                 Privacy Policy
               </a>
-              <a href="#terms" className="font-raleway text-base font-normal leading-[1.5] text-[#0D0700] hover:opacity-80 transition">
+              <a href="#terms" className="font-raleway text-sm sm:text-base font-normal leading-[1.5] text-[#0D0700] hover:opacity-80 transition">
                 Terms of Service
               </a>
-              <a href="#cookies" className="font-raleway text-base font-normal leading-[1.5] text-[#0D0700] hover:opacity-80 transition">
+              <a href="#cookies" className="font-raleway text-sm sm:text-base font-normal leading-[1.5] text-[#0D0700] hover:opacity-80 transition">
                 Cookies Settings
               </a>
             </div>

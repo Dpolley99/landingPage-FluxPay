@@ -25,41 +25,41 @@ const Problem = () => {
   ];
 
   return (
-    <section className="bg-white w-full flex flex-col items-center gap-20 pt-10 pb-20 px-16">
-      <div className="flex flex-col items-center gap-20 w-full">
+    <section className="bg-white w-full flex flex-col items-center gap-10 md:gap-16 xl:gap-20 pt-8 md:pt-10 pb-12 md:pb-16 xl:pb-20 px-4 sm:px-8 md:px-12 xl:px-16">
+      <div className="flex flex-col items-center gap-10 md:gap-16 xl:gap-20 w-full max-w-[1440px]">
         <div className="flex flex-col items-center gap-4 w-full">
-          <div className="flex flex-col items-center gap-6 w-full">
-            <h2 className="font-archivo text-[60px] font-medium leading-[1.2] tracking-[-0.01em] text-[#0D0700] text-center">
+          <div className="flex flex-col items-center gap-4 md:gap-6 w-full">
+            <h2 className="font-archivo text-3xl sm:text-4xl md:text-5xl xl:text-[60px] font-medium leading-[1.2] tracking-[-0.01em] text-[#0D0700] text-center">
               Built for a real problem
             </h2>
-            <p className="font-raleway text-xl font-normal leading-[1.5] text-[#0D0700] text-center max-w-3xl">
+            <p className="font-raleway text-base sm:text-lg md:text-xl font-normal leading-[1.5] text-[#0D0700] text-center max-w-3xl px-4">
               Household finance is fragmented and inefficient. We're solving this with a platform that brings clarity and control to everyday money management.
             </p>
           </div>
         </div>
         
-        <div className="flex flex-col items-center gap-16 w-full">
-          <div className="flex gap-0 w-full">
+        <div className="flex flex-col items-center gap-8 md:gap-12 xl:gap-16 w-full">
+          <div className="flex flex-col md:flex-row gap-0 w-full overflow-x-auto">
             {tabs.map((tab, index) => (
               <button
                 key={index}
                 onClick={() => setActiveTab(index)}
-                className={`flex-1 flex flex-col justify-center items-center gap-1 px-6 py-4 ${
+                className={`flex-1 flex flex-col justify-center items-center gap-1 px-4 sm:px-6 py-4 min-w-[200px] ${
                   activeTab === index
-                    ? 'border-b-2 border-[#01036A]'
-                    : 'border-b border-transparent'
+                    ? 'border-b-2 md:border-b-2 border-[#01036A]'
+                    : 'border-b md:border-b border-transparent'
                 } hover:bg-gray-50 transition`}
               >
-                <h6 className="font-archivo text-[26px] font-medium leading-[1.4] tracking-[-0.01em] text-[#0D0700]">
+                <h6 className="font-archivo text-lg sm:text-xl md:text-2xl xl:text-[26px] font-medium leading-[1.4] tracking-[-0.01em] text-[#0D0700] text-center">
                   {tab.title}
                 </h6>
-                <p className="font-raleway text-lg font-normal leading-[1.5] text-[#0D0700] text-center">
+                <p className="font-raleway text-sm sm:text-base md:text-lg font-normal leading-[1.5] text-[#0D0700] text-center">
                   {tab.description}
                 </p>
               </button>
             ))}
           </div>
-          <div className="w-full h-[738px] rounded-lg overflow-hidden">
+          <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[738px] rounded-lg overflow-hidden">
             <img 
               src={tabs[activeTab].image} 
               alt={tabs[activeTab].title}

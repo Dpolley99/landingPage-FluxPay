@@ -2,29 +2,29 @@ import heroImage from '../assets/hero-image.png';
 
 const Hero = () => {
   return (
-    <section className="bg-[#E5E5F0] w-full flex flex-col gap-20 h-[900px]">
-      <div className="flex flex-1 w-full">
-        <div className="flex-1 flex flex-col justify-center items-end gap-8 px-16 py-0 pr-20 pl-16">
-          <div className="flex flex-col gap-8 w-full">
-            <div className="flex flex-col gap-6">
-              <h1 className="font-archivo text-[84px] font-medium leading-[1.1] tracking-[-0.01em] text-[#0D0700]">
+    <section className="bg-[#E5E5F0] w-full flex flex-col gap-10 md:gap-16 xl:gap-20 min-h-[600px] md:min-h-[700px] lg:h-[800px] xl:h-[900px]">
+      <div className="flex flex-col lg:flex-row flex-1 w-full max-w-[1440px] mx-auto">
+        <div className="flex-1 flex flex-col justify-center items-start lg:items-end gap-6 md:gap-8 px-4 sm:px-8 md:px-12 lg:px-16 py-8 md:py-12 lg:py-0 lg:pr-20 lg:pl-16">
+          <div className="flex flex-col gap-6 md:gap-8 w-full">
+            <div className="flex flex-col gap-4 md:gap-6">
+              <h1 className="font-archivo text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[84px] font-medium leading-[1.1] tracking-[-0.01em] text-[#0D0700]">
                 Household bills, simplified
               </h1>
-              <p className="font-raleway text-xl font-normal leading-[1.5] text-[#0D0700]">
+              <p className="font-raleway text-base sm:text-lg md:text-xl font-normal leading-[1.5] text-[#0D0700]">
                 FluxPay makes it easy to pay your everyday bills and see your finances clearly in one place. Manage what matters without the complexity.
               </p>
             </div>
-            <div className="flex gap-4">
-              <button className="bg-[#01036A] border border-[#01036A] rounded-md px-3 py-1.5 text-white text-lg font-medium hover:opacity-90 transition">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+              <button className="bg-[#01036A] border border-[#01036A] rounded-md px-4 sm:px-3 py-2 sm:py-1.5 text-white text-base sm:text-lg font-medium hover:opacity-90 transition w-full sm:w-auto">
                 Preview
               </button>
-              <button className="border border-[rgba(13,7,0,0.15)] rounded-md px-3 py-1.5 text-[#0D0700] text-lg font-medium hover:opacity-80 transition">
+              <button className="border border-[rgba(13,7,0,0.15)] rounded-md px-4 sm:px-3 py-2 sm:py-1.5 text-[#0D0700] text-base sm:text-lg font-medium hover:opacity-80 transition w-full sm:w-auto">
                 Contact
               </button>
             </div>
           </div>
         </div>
-        <div className="flex-1 w-full h-full">
+        <div className="flex-1 w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-full xl:h-full">
           <img 
             src={heroImage} 
             alt="FluxPay Dashboard" 
