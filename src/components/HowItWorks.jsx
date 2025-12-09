@@ -1,4 +1,4 @@
-import heroImage from '../assets/hero-image.png';
+import howItWorks from '../assets/howItWorks.png';
 
 const HowItWorks = () => {
   return (
@@ -29,7 +29,7 @@ const HowItWorks = () => {
         </div>
         <div className="flex-1 w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[500px] xl:h-[600px]">
           <img 
-            src={heroImage} 
+            src={howItWorks} 
             alt="FluxPay Interface" 
             className="w-full h-full object-cover rounded-lg lg:rounded-none"
             onError={(e) => {
