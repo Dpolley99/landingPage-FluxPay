@@ -19,7 +19,7 @@ const Problem = () => {
     },
     {
       title: "Incentivized ecosystem",
-      description: "Rewards ecosystem incntivizing users for essential spending while delivering genuine value to users.",
+      description: "Rewards ecosystem incntivizing users for essential spending delivering genuine value to users.",
       image: problem3,
     },
   ];
