@@ -2,13 +2,13 @@ import heroImage from '../assets/hero-image.png';
 
 const Hero = () => {
   return (
-    <section className="bg-[#E5E5F0] w-full flex flex-col gap-10 md:gap-16 xl:gap-20 min-h-[600px] md:min-h-[700px] lg:h-[800px] xl:h-[900px] pt-[72px]">
+    <section className="bg-[#E5E5F0] w-full flex flex-col gap-10 md:gap-16 xl:gap-20 min-h-[600px] md:min-h-[700px] lg:h-[820px] xl:h-[930px] pt-[72px]">
       <div className="flex flex-col lg:flex-row flex-1 w-full max-w-[1440px] mx-auto">
         <div className="flex-1 flex flex-col justify-center items-start lg:items-end gap-6 md:gap-8 px-4 sm:px-8 md:px-12 lg:px-16 py-8 md:py-12 lg:py-0 lg:pr-20 lg:pl-16">
           <div className="flex flex-col gap-6 md:gap-8 w-full">
             <div className="flex flex-col gap-4 md:gap-6">
-              <h1 className="font-archivo text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[84px] font-medium leading-[1.1] tracking-[-0.01em] text-[#0D0700]">
-                Household bills, simplified
+              <h1 className="font-archivo text-3xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-medium leading-[1.1] tracking-[-0.01em] text-[#0D0700]">
+                Your finances, simplified
               </h1>
               <p className="font-raleway text-base sm:text-lg md:text-xl font-normal leading-[1.5] text-[#0D0700]">
                 FluxPay makes it easy to pay your everyday bills and see your finances clearly in one place. Manage what matters without the complexity.
