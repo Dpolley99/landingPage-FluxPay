@@ -11,7 +11,7 @@ const Hero = () => {
                 Your finances, simplified
               </h1>
               <p className="font-raleway text-base sm:text-lg md:text-xl font-normal leading-[1.5] text-[#0D0700]">
-                FluxPay makes it easy to pay your everyday bills and see your finances clearly in one place. Manage what matters without the complexity.
+                Track finances clearly, pay everyday bills routinely and earn rewards in one place. Manage what matters without the complexity.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">

@@ -8,18 +8,18 @@ const Problem = () => {
 
   const tabs = [
     {
-      title: "Market opportunity",
+      title: "Fragmented experience",
       description: "Billions spent on household bills annually with minimal innovation in payment experience.",
       image: problem1,
     },
     {
       title: "Early traction",
-      description: "Strong user engagement and retention metrics demonstrate real demand for this solution.",
+      description: "Strong user interest metrics demonstrate real demand for this solution.",
       image: problem2,
     },
     {
-      title: "Differentiated approach",
-      description: "Rewards ecosystem creates a new revenue stream while delivering genuine value to users.",
+      title: "Incentivized ecosystem",
+      description: "Rewards ecosystem incntivizing users for essential spending while delivering genuine value to users.",
       image: problem3,
     },
   ];

@@ -11,12 +11,12 @@ const WhatWeDo = () => {
     },
     {
       title: "Unified financial view",
-      description: "See all your bills and spending in one dashboard. No more scattered statements or forgotten payments.",
+      description: "See all your bank accounts, loan accounts, credit cards and spending categorized in one dashboard. No more scattered statements or forgotten payments.",
       image: feature2,
     },
     {
       title: "Rewards that matter",
-      description: "Earn rewards from every transaction and redeem them through our marketplace. Your spending works for you.",
+      description: "Earn rewards from every transaction and redeem them through our cashback marketplace. Your spending works for you.",
       image: feature3,
     },
   ];
@@ -52,7 +52,7 @@ const WhatWeDo = () => {
                   <div className="hidden w-full h-full bg-gradient-to-br from-blue-200 to-purple-200"></div>
                 </div>
                 <div className="flex flex-col items-center gap-4 md:gap-6">
-                  <h4 className="font-archivo text-2xl sm:text-3xl md:text-4xl xl:text-[40px] font-medium leading-[1.3] tracking-[-0.01em] text-[#0D0700] text-center">
+                  <h4 className="font-archivo text-xl sm:text-2xl md:text-2xl xl:text-[40px] font-medium leading-[1.3] tracking-[-0.01em] text-[#0D0700] text-center">
                     {feature.title}
                   </h4>
                   <p className="font-raleway text-base sm:text-lg font-normal leading-[1.5] text-[#0D0700] text-center">

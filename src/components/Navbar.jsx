@@ -65,7 +65,7 @@ const Navbar = () => {
             )}
           </button>
           <button className="hidden lg:block bg-[#01036A] border border-[#01036A] rounded-md px-2.5 py-1 text-white text-base xl:text-lg font-medium hover:opacity-90 transition">
-            Menu
+            Sign up
           </button>
         </div>
       </div>
