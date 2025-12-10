@@ -5,8 +5,8 @@ import feature3 from '../assets/feature-3.png';
 const WhatWeDo = () => {
   const features = [
     {
-      title: "Reliable bill payments",
-      description: "Pay your household bills on time, every time, without the friction of managing multiple accounts and due dates.",
+      title: "Payments infrastructure layer",
+      description: "Pay all your household bills on time, everytime, without the friction of managing multiple accounts and due dates.",
       image: feature1,
     },
     {
@@ -15,7 +15,7 @@ const WhatWeDo = () => {
       image: feature2,
     },
     {
-      title: "Rewards that matter",
+      title: "Incentives engine",
       description: "Earn rewards from every transaction and redeem them through our cashback marketplace. Your spending works for you.",
       image: feature3,
     },

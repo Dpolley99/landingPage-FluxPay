@@ -30,7 +30,7 @@ const Problem = () => {
         <div className="flex flex-col items-center gap-4 w-full">
           <div className="flex flex-col items-center gap-4 md:gap-6 w-full">
             <h2 className="font-archivo text-3xl sm:text-4xl md:text-5xl xl:text-[60px] font-medium leading-[1.2] tracking-[-0.01em] text-[#0D0700] text-center">
-              Built for a real problem
+              Designed for a broken financial infrastructure
             </h2>
             <p className="font-raleway text-base sm:text-lg md:text-xl font-normal leading-[1.5] text-[#0D0700] text-center max-w-3xl px-4">
               Household finance is fragmented and inefficient. We're solving this with a platform that brings clarity and control to everyday money management.

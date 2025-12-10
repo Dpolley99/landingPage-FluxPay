@@ -8,10 +8,10 @@ const Hero = () => {
           <div className="flex flex-col gap-6 md:gap-8 w-full">
             <div className="flex flex-col gap-4 md:gap-6">
               <h1 className="font-archivo text-3xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-medium leading-[1.1] tracking-[-0.01em] text-[#0D0700]">
-                Your finances, simplified
+                The operating system for household finances
               </h1>
               <p className="font-raleway text-base sm:text-lg md:text-xl font-normal leading-[1.5] text-[#0D0700]">
-                Track finances clearly, pay everyday bills routinely and earn rewards in one place. Manage what matters without the complexity.
+                From bill payments, earning rewards and tracking finances, expand into a unified financial command center designed for households.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
@@ -42,4 +42,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
